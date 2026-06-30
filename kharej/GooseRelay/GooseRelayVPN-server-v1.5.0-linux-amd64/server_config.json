@@ -1,0 +1,7 @@
+{
+  "server_host": "0.0.0.0",
+  "server_port": 8443,
+  "tunnel_key": "4fb97ee0e75cf15cc2cb8df253245fe6b09bb5888ffe5f3523ef2b2e92839ac2",
+  "upstream_proxy": "",
+  "debug_timing": false
+}

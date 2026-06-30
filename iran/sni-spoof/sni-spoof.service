@@ -1,0 +1,14 @@
+[Unit]
+Description=Sni Spoof Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/sni-spoof/sni-spoof-rs /root/sni-spoof/config.json
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

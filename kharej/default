@@ -1,0 +1,11 @@
+server {
+    listen 127.0.0.1:2083 ssl;
+    server_name p.ashkan1377.ir;
+
+    ssl_certificate /etc/letsencrypt/live/p.ashkan1377.ir/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/p.ashkan1377.ir/privkey.pem;
+
+    location / {
+        return 301 https://www.zula.ir$request_uri;
+    }
+}

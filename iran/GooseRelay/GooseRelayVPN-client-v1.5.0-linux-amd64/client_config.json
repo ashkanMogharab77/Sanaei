@@ -1,0 +1,18 @@
+{
+  "debug_timing": false,
+  "socks_host": "127.0.0.1",
+  "socks_port": 8443,
+  "google_host": "216.239.38.120",
+  "sni": ["www.google.com", "mail.google.com", "accounts.google.com"],
+  "script_keys": [
+"",
+"",
+"",
+""
+],
+  "tunnel_key": "4fb97ee0e75cf15cc2cb8df253245fe6b09bb5888ffe5f3523ef2b2e92839ac2",
+
+  "_comment_socks_auth": "",
+  "socks_user": "",
+  "socks_pass": ""
+}

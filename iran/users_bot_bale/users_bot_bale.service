@@ -1,0 +1,14 @@
+[Unit]
+Description= Bale Bot Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/users_bot_bale
+ExecStart=/root/users_bot_bale/venv/bin/python3 bot.py
+Restart=always
+User=root
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

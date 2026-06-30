@@ -1,0 +1,13 @@
+[Unit]
+Description=Gost SOCKS5 to HTTP Proxy Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/gost -L=socks5://RVmNZ7nUZu:sPsz0RYxMR@0.0.0.0:8443 -F=http://127.0.0.1:8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
