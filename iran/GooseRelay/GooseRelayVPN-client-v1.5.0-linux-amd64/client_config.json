@@ -5,10 +5,10 @@
   "google_host": "216.239.38.120",
   "sni": ["www.google.com", "mail.google.com", "accounts.google.com"],
   "script_keys": [
-"",
-"",
-"",
-""
+"AKfycbw-ISSEZ9E2IbTdUUqUXgPayN7Coo5ieG0qfvNlorl7_EST9h97nMoR3Uihc-U7sbJg",
+"AKfycbyR1R0dDUt_JVGMG0oHaSigU3h8gcVUio2EipAQOknXECw2Ilg4cVXUW7FDxza5AFrQ",
+"AKfycbwpNXftAYe97KbE-BMIrWvOFvGGUJ3FmrQCg1WJzIRl72Avn2RiFNbrpY0S_UwGtOex",
+"AKfycbxWpj7qWR7IZvatxOCxm-EMem7LGecHtMrR04RalLYN2Hm73LvdzlpZmOVDUjk9IxTNbg"
 ],
   "tunnel_key": "4fb97ee0e75cf15cc2cb8df253245fe6b09bb5888ffe5f3523ef2b2e92839ac2",
 
